@@ -1,8 +1,8 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>313113</groupId>
-  <artifactId>MavenProjectTest</artifactId>
+  <groupId>com.finantix.modules.pos.jp</groupId>
+  <artifactId>sharp-modules-pos.parent</artifactId>
   <packaging>war</packaging>
   <version>01.02.03</version>
   <name>MavenProjectTest Maven Webapp</name>
@@ -25,5 +25,10 @@
     </plugins>
     <finalName>MavenProjectTest</finalName>
   </build>
+
+  <modules>
+      <module>com.finantix.modules.starter</module>
+  </modules>
+
 </project>
 
