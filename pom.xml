@@ -27,7 +27,7 @@
   </build>
 
   <modules>
-      <module>com.finantix.modules.starter</module>
+      <module>cFolder</module>
   </modules>
 
 </project>
