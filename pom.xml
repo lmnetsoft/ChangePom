@@ -1,10 +1,5 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-
-        <scm>
-            <developerConnection>scm:git:https://github.com/hatnguyen/ChangePom.git</developerConnection>
-        </scm>
-
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.finantix.modules.pos.jp</groupId>
 	<artifactId>sharp-modules-pos.parent</artifactId>
@@ -26,8 +21,7 @@
 		</license>
 	</licenses>
 	<scm>
-		<connection>scm:git:ssh://rad@git.it.fx.lan/project.manulife.modules.server.git</connection>
-		<url>http://git.it.fx.lan/tree/?r=project.manulife.modules.server&amp;f=</url>
+		<connection>scm:git:https://github.com/hatnguyen/ChangePom.git</connection>
 	</scm>
 	<issueManagement>
 		<system>Redmine</system>
