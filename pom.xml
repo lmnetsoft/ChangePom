@@ -1,13 +1,44 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-        <modelVersion>4.0.0</modelVersion>
-	<groupId>com.finantix.modules.pos.jp</groupId>
-	<artifactId>sharp-modules-pos.parent</artifactId>
-	<version>05.04.01</version>
-	<packaging>pom</packaging>
-	<name>Finantix POS Japan</name>
-	<scm>
-              <developerConnection>scm:git:https://github.com/hatnguyen/ChangePom.git</developerConnection>
-	</scm>
+
+="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>313113</groupId>
+  <artifactId>MavenProjectTest</artifactId>
+  <packaging>war</packaging>
+  <version>123</version>
+  <name>MavenProjectTest Maven Webapp</name>
+  <url>http://maven.apache.org</url>  
+  <properties>
+    <abc.def>XYZ</abc.def>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+
+ <scm>
+     <connection>scm:git:https://github.com/hatnguyen/ChangePom.git</connection>	 
+     <url>https://github.com/hatnguyen/ChangePom</url>
+     <developerConnection>scm:git:https://github.com/hatnguyen/ChangePom.git</developerConnection>     	
+ </scm> 
+  
+  
+  <build>
+  
+	
+<plugins>
+    <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-release-plugin</artifactId>
+        <version>2.5.3</version>
+      </plugin>
+</plugins>
+	<finalName>MavenProjectTest</finalName>
+  </build>
 </project>
 
