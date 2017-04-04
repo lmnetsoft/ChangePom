@@ -19,6 +19,19 @@
         <artifactId>maven-release-plugin</artifactId>
         <version>2.5.3</version>
       </plugin>
+
+      <plugin> 
+        <groupId>org.codehaus.mojo</groupId> 
+        <artifactId>versions-maven-plugin</artifactId> 
+        <version>2.3</version> 
+        <configuration> 
+            <includes> 
+               <include>com.finantix.itau</include> 
+            </includes> 
+        </configuration> 
+      </plugin> 
+
+
     </plugins>
    </build>
 
